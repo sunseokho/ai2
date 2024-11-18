@@ -53,9 +53,9 @@ if uploaded_file is not None:
 
      if prediction == labels[0]:
          st.write("중냉 중간고사냉랭")
-    elif prediction == labels[1]:
+     elif prediction == labels[1]:
          st.write("짜장면은 자장면")
-    elif prediction == labels[2]:
+     elif prediction == labels[2]:
          st.write("짬뽕은 모르겠다!")
 
     for label, prob in zip(labels, probs):
