@@ -7,7 +7,7 @@ from PIL import Image
 import gdown
 
 # Google Drive 파일 ID
-file_id = '1tQiErhCq422RnSkHB1q3TOQ6FwfrJWiL/view?usp=sharing'
+file_id = '1tQiErhCq422RnSkHB1q3TOQ6FwfrJWiL'
 
 # Google Drive에서 파일 다운로드 함수
 @st.cache(allow_output_mutation=True)
